@@ -18,3 +18,13 @@ for i in range(0, 23 + 1):
 for i in range(1, 11):
     if i % 2 == 0:
         print(i)
+
+for i in range(1, 30 + 1):
+    if (i % 3==0) and (i % 5 == 0):
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(str(i))
